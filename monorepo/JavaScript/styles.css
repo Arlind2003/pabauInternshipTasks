@@ -12,8 +12,8 @@ body{
 }
 
 .checkbox-container{
-    height: 30%;
-    min-width: 12%;
+    height: 70%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,17 +22,14 @@ body{
     background-color: #82c8e2;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
-
 .checkbox-area{
-    height: 200px;
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
+    width: 80%;
+    margin-left: 10%;
+    height: 300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
-}
-
-.checkbox-container h3 {
-    margin: 0;
+    gap: 5%;
 }
 
 .checkbox-container input[type="checkbox"]{
@@ -87,4 +84,46 @@ button:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+@media (max-width: 992px) {
+    .checkbox-area{
+        width: 80%;
+        margin-left: 10%;
+        height: 350px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        column-gap: 7%;
+        row-gap: 16%;
+        margin: 10% auto;
+    }
+
+    .checkbox-container{
+        height: 100%;
+        padding: 0px;
+    }
+
+    .checkbox-container input[type="checkbox"]{
+        height: 40px;
+        width: 40px;
+        cursor: pointer;
+    }
+
+    .checkbox-text {
+        font-size: 40px;
+        margin-left: 10px
+    }
+    
+    .function-buttons {
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+    }
+
+   .buttons-text {
+        font-size: 25px;
+        height: 70px;
+   }
+
 }

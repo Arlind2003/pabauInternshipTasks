@@ -9,8 +9,7 @@ function App() {
   const steps = [<>
       <OptionContainer nextPage={nextPage}/>
       <div className="additional-information">
-          <h5>Not sure about consultation type? Please, call </h5>
-          <h5 style={{color:"blue", marginLeft:"5px"}}>0203 7959063</h5>
+          <h5>Not sure about consultation type? Please, call <span style={{color:"blue"}}>0203 7959063</span></h5>
       </div>
   </>, selectedStep]
 

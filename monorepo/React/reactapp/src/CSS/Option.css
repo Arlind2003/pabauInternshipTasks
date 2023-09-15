@@ -1,5 +1,6 @@
 .option{
     display: flex;
+    cursor: pointer;
     justify-content: space-between;
     align-items: center;
     background-color: #ffffff;
@@ -22,6 +23,21 @@
 }
 .option-text{
     margin-left: 18px;
+}
+@media (max-width: 960px){
+    .option-text{
+        font-size: 15px;
+    }
+}
+@media (max-width: 700px){
+    .option-text{
+        font-size: 14px;
+    }
+}
+@media (max-width: 400px){
+    .option-text{
+        font-size: 12px;
+    }
 }
 .arrow{
     cursor: pointer;

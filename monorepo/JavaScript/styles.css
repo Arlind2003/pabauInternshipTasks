@@ -1,0 +1,78 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-color: #ADD8E6;
+}
+.checkbox-container{
+    height: 30%;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #82c8e2;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+.checkbox-area{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.checkbox-container h3 {
+    margin: 0;
+}
+.checkbox-container input[type="checkbox"]{
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #00008B;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: all ease-in-out 0.15s;
+}
+
+/* Change button color on hover */
+button:hover {
+    background-color: #1d80a5;
+}
+
+/* Style the selected values container */
+.selected-values-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    display: none;
+    background-color: #82bdd0;
+    width: 50%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the selected value boxes */
+.selected-value {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #82c8e2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}

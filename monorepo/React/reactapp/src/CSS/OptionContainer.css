@@ -1,0 +1,12 @@
+.options-container{
+    padding: 30px;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1;
+    gap:10px;
+    align-items: center;
+    width: 25%;
+    height: auto;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}

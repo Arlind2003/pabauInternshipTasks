@@ -1,46 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <script src="index.js"></script>
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
+
 <body>
-   <div class="checkbox-area">
-    <div class="checkbox-container">
-     <input id="checkbox0" type="checkbox" value="Internship"/>
-        <h3 id="checkbox-text0">Internship</h3>
+    <div class="checkbox-area">
+        <div class="checkbox-container">
+            <input id="checkbox0" type="checkbox" value="Internship" />
+            <h3 id="checkbox-text0">Internship</h3>
+        </div>
+        <div class="checkbox-container">
+            <input id="checkbox1" type="checkbox" value="Pabau" />
+            <h3 id="checkbox-text1">Pabau</h3>
+        </div>
+        <div class="checkbox-container">
+            <input id="checkbox2" type="checkbox" value="Employment" />
+            <h3 id="checkbox-text2">Employment</h3>
+        </div>
+        <div class="checkbox-container">
+            <input id="checkbox3" type="checkbox" value="Career" />
+            <h3 id="checkbox-text3">Career</h3>
+        </div>
     </div>
-    <div class="checkbox-container">
-     <input id="checkbox1" type="checkbox" value="Pabau"/>
-        <h3 id="checkbox-text1">Pabau</h3>
+    <div class="functionality-container">
+        <div>
+            <button id="shuffle">SHUFFLE VALUES</button>
+            <button id="change">CHANGE VALUES</button>
+            <button id="show">SHOW SELECTED VALUES</button>
+        </div>
+        <div id="selected-values-container" class="selected-values-container">
+            <h1>Selected values are</h1>
+            <div class="selected-value">
+                <h2 id="value0"></h2>
+            </div>
+            <div class="selected-value">
+                <h2 id="value1"></h2>
+            </div>
+            <div class="selected-value">
+                <h2 id="value2"></h2>
+            </div>
+            <div class="selected-value">
+                <h2 id="value3"></h2>
+            </div>
+        </div>
     </div>
-    <div class="checkbox-container">
-     <input id="checkbox2" type="checkbox" value="Employment"/>
-        <h3 id="checkbox-text2">Employment</h3>
-    </div>
-    <div class="checkbox-container">
-     <input id="checkbox3" type="checkbox" value="Career"/>
-        <h3 id="checkbox-text3">Career</h3>
-    </div>
-   </div>
-     <button id="shuffle">SHUFFLE VALUES</button>
-     <button id="change">CHANGE VALUES</button>
-     <button id="show">SHOW SELECTED VALUES</button>
-      <div id="selected-values-container" class="selected-values-container">
-       <h1>Selected values are</h1>
-       <div class="selected-value">
-           <h2 id="value0"></h2>
-       </div>
-       <div class="selected-value">
-           <h2 id="value1"></h2>
-       </div>
-       <div class="selected-value">
-           <h2 id="value2"></h2>
-       </div>
-       <div class="selected-value">
-           <h2 id="value3"></h2>
-       </div>
-      </div>
 </body>
+
 </html>
